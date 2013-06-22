@@ -3,6 +3,15 @@ jQuery(document).ready(function($) {
 		console.log("Submit button was clicked");
 	});
 	$('#form').validate({
+		errorClass:"inputError",
+		
+
+		}
+		errorPlacement: function(error, element){
+			console.log(error);
+			console.log(element);
+
+		},
 		rules : {
 			username :{
 				required: true,
