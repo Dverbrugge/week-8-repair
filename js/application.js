@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
 		}
 
 	}
-
+});
 
 
 function getParameterByName(name) {
